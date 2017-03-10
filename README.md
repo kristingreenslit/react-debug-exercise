@@ -12,20 +12,20 @@ React is an incredibly powerful JavaScript library, but it's easier to learn whe
 
 Further reading:
 
-[React documentation](https://facebook.github.io/react/)
-[High Level Overview](http://blog.reverberate.org/2014/02/react-demystified.html) (the syntax in this article is outdated)
-[TL;DR](http://blog.andrewray.me/reactjs-for-stupid-people/) (excuse the title on this one)
-[Props vs. State](https://themeteorchef.com/tutorials/understanding-props-and-state-in-react)
-[Virtual DOM vs. DOM](http://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
+* [React documentation](https://facebook.github.io/react/)
+* [High Level Overview](http://blog.reverberate.org/2014/02/react-demystified.html) (the syntax in this article is outdated)
+* [TL;DR](http://blog.andrewray.me/reactjs-for-stupid-people/) (excuse the title on this one)
+* [Props vs. State](https://themeteorchef.com/tutorials/understanding-props-and-state-in-react)
+* [Virtual DOM vs. DOM](http://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
 
 ### Installation
 
 1. Check that Node and NPM are installed. Run *node -v* and then *npm -v* from the command line (Windows) or Terminal app (Mac). If a version number does not print to the console, follow these instructions:
 
-[Mac users] (http://blog.teamtreehouse.com/install-node-js-npm-mac)
-[Windows users] (http://blog.teamtreehouse.com/install-node-js-npm-windows)
+* [Mac users] (http://blog.teamtreehouse.com/install-node-js-npm-mac)
+* [Windows users] (http://blog.teamtreehouse.com/install-node-js-npm-windows)
 
-1. From the command line or Terminal: clone the repository, install dependencies, then start the development server:
+2. From the command line or Terminal: clone the repository, install dependencies, then start the development server:
 
 ```
   > git clone git@github.com:kristingreenslit/react-debug-exercise.git
@@ -34,7 +34,7 @@ Further reading:
   > npm start
 ```
 
-1. Visit http://localhost:3000 to view the app in your web browser of choice. Note: Running **npm start** and entering the keyboard shortcut **CTRL + C** from the project's root directory will start and stop the server
+3. Visit http://localhost:3000 to view the app in your web browser of choice. Note: Running **npm start** and entering the keyboard shortcut **CTRL + C** from the project's root directory will start and stop the server
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)
