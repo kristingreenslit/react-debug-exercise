@@ -1,12 +1,22 @@
 # React Debug Exercise
 
-The intention of this app is to help co-workers learn React.
+The code in this app is intentionally broken.
 
-In my own journey as a web developer, I've noticed that debugging is not only a valuable skill but one of the best ways to learn. Therefore, the code is this app is intentionally broken.
+In my own journey as a web developer, I've noticed that debugging is not only a valuable skill but also a great way to learn. This exercise was created to help co-workers learn React by providing an alternative to the traditional "todo app" tutorial.
 
 ### Before You Start
 
-Learing
+React is an incredibly powerful JavaScript library, but it's easier to learn when you have a solid foundation in [HTML](http://learn.shayhowe.com/html-css/getting-to-know-html/), [CSS](http://learn.shayhowe.com/html-css/getting-to-know-css/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics). 
+
+[Traditional methods for debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work well in a React application. [Developer tools](https://github.com/facebook/react-devtools) might be more helpful.
+
+Further reading:
+
+[React documentation](https://facebook.github.io/react/)
+[High Level Overview](http://blog.reverberate.org/2014/02/react-demystified.html) (the syntax in this article is outdated)
+[TL;DR](http://blog.andrewray.me/reactjs-for-stupid-people/) (excuse the title on this one)
+[Props vs. State](https://themeteorchef.com/tutorials/understanding-props-and-state-in-react)
+[Virtual DOM vs. DOM](http://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
 
 ### Installation
 
