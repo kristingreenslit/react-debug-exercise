@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.app-header {
+.app-header, .app-footer {
   background-color: #222;
   padding: 20px;
   color: white;

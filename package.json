@@ -2,7 +2,9 @@
   "name": "react-debug-exercise",
   "version": "0.1.0",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "react": "^15.4.2",
+    "react-bootstrap": "^0.30.8",
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
