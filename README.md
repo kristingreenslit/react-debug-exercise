@@ -10,7 +10,7 @@ All broken code in this exercise is located in the src folder.
 
 Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work well in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful.
 
-The SAR method (Situation, Action, Result) is a great method for thinking through the steps needed to solve a problem. For a written bug report, I use the SEA template (Steps to reproduce, Expected result, Actual result). Pro tip - save the SEA template as a signature in your email client if you find yourself frequently reporting bugs. JIRA can be also be configured to generate bug tickets sent to a designated email address.
+The SAR method (Situation, Action, Result) is a great method for thinking through the steps needed to solve a problem. For a written bug report, I use the SEA template (Steps to reproduce, Expected result, Actual result). Pro tip: save the SEA template as a signature in your email client if you find yourself frequently reporting bugs. JIRA can be configured to generate bug tickets sent to a designated email address.
 
 ### Installation
 

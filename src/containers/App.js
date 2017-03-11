@@ -6,15 +6,24 @@ import '../styles/App.css';
 
 class App extends Component {
 
+  constructor(props) {
+    super(props);
+
+    this.state = { showLoginForm: false };
+    this.handleLogin = this.handleLogin.bind(this);
+  }
+
   handleLogin() {
-    console.log('login handled');
+    this.setState({ showLoginForm: true });
   }
 
   render() {
     return (
       <div className='app'>
         <Navbar handleLogin={this.handleLogin} />
-        <LoginForm />
+        <div className={this.state.showLoginForm === true ? '' : 'hide'}>
+          <LoginForm />
+        </div>
       </div>
     );
   }
