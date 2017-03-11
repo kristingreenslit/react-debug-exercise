@@ -10,7 +10,7 @@ All broken code in this exercise is located in the src folder.
 
 Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work well in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful.
 
-The SAR method (Situation, Action, Result) is a great method for thinking through the steps needed to solve a problem. For a written bug report, I use the SEA template (Steps to reproduce, Expected result, Actual result). Pro tip: save the SEA template as a signature in your email client if you find yourself frequently reporting bugs. JIRA can be configured to generate bug tickets sent to a designated email address.
+The SAR method (Situation, Action, Result) is a great method for thinking through the steps needed to solve a problem. For a written bug report, I use the SEA template (Steps to reproduce, Expected result, Actual result). Pro tip: save the SEA template as a signature in your email client if you find yourself frequently reporting bugs. Also, JIRA can be configured to automatically generate bug tickets based on emails sent to a designated address.
 
 ### Installation
 
@@ -33,6 +33,8 @@ React is an incredibly powerful JavaScript library, but it's easier to learn whe
 
 [Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/) are frequently used in React applications. The simple explanation is that React, a technology used for building Single Page Applications (SPAs), is one big magic trick. It breaks the mold of how traditional websites are expected to operate. However, React is the view layer in the traditional "MVC" architecture. The use of additional libraries with React, such as Redux and React-Router, can enhance React code so that the flow of data throughout an application is more accessible, organized and/or traceable.
 
+[Create React App](https://github.com/facebookincubator/create-react-app) was used to bootstrap this project.
+
 ### Further Reading:
 
 * [React documentation](https://facebook.github.io/react/)
@@ -40,8 +42,6 @@ React is an incredibly powerful JavaScript library, but it's easier to learn whe
 * [TL;DR](http://blog.andrewray.me/reactjs-for-stupid-people/) (excuse the title on this one)
 * [Props vs. State](https://themeteorchef.com/tutorials/understanding-props-and-state-in-react)
 * [Virtual DOM vs. DOM](http://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
-
-[Create React App](https://github.com/facebookincubator/create-react-app) was used to bootstrap this project 
 
 
 
