@@ -2,12 +2,44 @@
   text-align: center;
 }
 
-.app-header, .app-footer {
+.app-navbar, .app-footer {
   background-color: #222;
-  padding: 20px;
+  padding: 30px;
   color: white;
 }
 
 .app-intro {
   font-size: large;
 }
+
+.flat-button {
+  background-color: transparent;
+  letter-spacing: 2px;
+  height: 40px;
+  text-transform: uppercase;
+  width: 120px;
+}
+
+.button-black {
+  border: 1px solid black;
+}
+
+.button-white {
+  border: 1px solid white;
+  margin-top: -20px;
+}
+
+.input-line {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mt6x { margin-top: 30px; }
+.pl2x { padding-left: 10px ;}

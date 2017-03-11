@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Form, FormGroup, FormControl, ControlLabel, Button } from 'react-bootstrap';
+import { Col, Form, FormGroup, FormControl, Glyphicon } from 'react-bootstrap';
 import '../styles/app.css';
 
 class LoginForm extends Component {
@@ -7,31 +7,29 @@ class LoginForm extends Component {
     return (
       <Form horizontal>
         <fieldset>
-          <Col smOffset={3} sm={6} style={{ marginTop: 50}}>
+          <Col smOffset={4} sm={6} className='mt6x'>
 
             <FormGroup>
-              <Col smOffset={2} sm={10}>
-                <h3 style={{ textAlign: 'left' }}>Sign in</h3>
+              <Col sm={8}>
+                <h3 className='text-left'>Sign in</h3>
               </Col>
             </FormGroup>
 
             <FormGroup controlId='formHorizontalEmail'>
-              <Col componentClass={ControlLabel} sm={2}>Email</Col>
-              <Col sm={10}>
-                <FormControl type='email' name='email' placeholder='Email' autoCapitalize='off' autoCorrect='off' />
+              <Col sm={8}>
+                <FormControl className='input-line' type='email' name='email' placeholder='Email Address' autoCapitalize='off' autoCorrect='off' />
               </Col>
             </FormGroup>
 
             <FormGroup controlId='formHorizontalPassword'>
-              <Col componentClass={ControlLabel} sm={2}>Password</Col>
-              <Col sm={10}>
-                <FormControl type='password' name='password' placeholder='Password' />
+              <Col sm={8}>
+                <FormControl className='input-line' type='password' name='password' placeholder='Password' />
               </Col>
             </FormGroup>
 
             <FormGroup>
-              <Col smOffset={2} sm={2} style={{ marginTop: 10 }}>
-                <Button type='submit'>Sign in</Button>
+              <Col sm={2} className='mt6x'>
+                <button className='flat-button button-black' type='submit'>Next<Glyphicon className='pl2x' glyph='menu-right' /></button>
               </Col>
             </FormGroup>
 
