@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Navbar from './navbar';
-import LoginForm from './form';
-// import Footer from './footer';
-import '../styles/app.css';
+import Navbar from '../components/Navbar';
+import LoginForm from '../components/LoginForm';
+// import Footer from '../components/Footer';
+import '../styles/App.css';
 
 class App extends Component {
 

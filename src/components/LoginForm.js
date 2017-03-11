@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Form, FormGroup, FormControl, Glyphicon } from 'react-bootstrap';
-import '../styles/app.css';
+import '../styles/App.css';
 
 class LoginForm extends Component {
 
