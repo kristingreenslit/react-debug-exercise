@@ -7,7 +7,7 @@ class Navbar extends Component {
       <div className='app-navbar'>
       	<div className='flex-container'>
 	      	<div className='header'>React Debug App</div>
-	      	<button className='flat-button border-white'>Log In</button>
+	      	<button className='flat-button border-white' onClick={this.props.handleLogin}>Log In</button>
         </div>
       </div>
     );

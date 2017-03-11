@@ -5,10 +5,15 @@ import LoginForm from './form';
 import '../styles/app.css';
 
 class App extends Component {
+
+  handleLogin() {
+    console.log('login handled');
+  }
+
   render() {
     return (
       <div className='app'>
-        <Navbar />
+        <Navbar handleLogin={this.handleLogin} />
         <LoginForm />
       </div>
     );

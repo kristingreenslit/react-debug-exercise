@@ -3,9 +3,14 @@ import { Col, Form, FormGroup, FormControl, Glyphicon } from 'react-bootstrap';
 import '../styles/app.css';
 
 class LoginForm extends Component {
+
+  onFormSubmit(event) {
+    event.preventDefault();
+  }
+
   render() {
     return (
-      <Form horizontal>
+      <Form horizontal onSubmit={this.onFormSubmit}>
         <fieldset>
           <Col smOffset={4} sm={6} className='mt6x'>
 
