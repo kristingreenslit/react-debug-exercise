@@ -1,14 +1,13 @@
-.App {
+.app {
   text-align: center;
 }
 
-.App-header {
+.app-header {
   background-color: #222;
-  height: 150px;
   padding: 20px;
   color: white;
 }
 
-.App-intro {
+.app-intro {
   font-size: large;
 }
