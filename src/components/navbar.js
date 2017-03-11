@@ -5,7 +5,10 @@ class Navbar extends Component {
   render() {
     return (
       <div className='app-navbar'>
-      	<button className='pull-right flat-button button-white'>Log In</button>
+      	<div className='flex-container'>
+	      	<div className='header'>React Debug App</div>
+	      	<button className='flat-button border-white'>Log In</button>
+        </div>
       </div>
     );
   }

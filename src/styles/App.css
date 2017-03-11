@@ -1,15 +1,7 @@
-.app {
-  text-align: center;
-}
-
 .app-navbar, .app-footer {
   background-color: #222;
-  padding: 30px;
+  padding: 20px;
   color: white;
-}
-
-.app-intro {
-  font-size: large;
 }
 
 .flat-button {
@@ -20,26 +12,26 @@
   width: 120px;
 }
 
-.button-black {
-  border: 1px solid black;
+.flex-container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.button-white {
-  border: 1px solid white;
-  margin-top: -20px;
+.header {
+  font-size: 1.8em;
+  letter-spacing: 1px;
 }
 
 .input-line {
-    background: transparent !important;
-    border: none !important;
-    border-bottom: 1px solid black !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid black !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
 
-.text-left {
-  text-align: left;
-}
-
+.border-black { border: 1px solid black; }
+.border-white { border: 1px solid white; }
 .mt6x { margin-top: 30px; }
 .pl2x { padding-left: 10px ;}
+.text-left { text-align: left; }
