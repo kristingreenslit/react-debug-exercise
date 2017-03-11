@@ -2,13 +2,15 @@
 
 The code in this app is intentionally broken.
 
-In my own journey as a web developer, I've noticed that debugging is not only a valuable skill but also a great way to learn. This exercise was created to help co-workers learn React by providing an alternative to the traditional "todo app" tutorial.
+In my own journey as a web developer, I've found that debugging is not only a valuable skill but also a great way to learn. This exercise was created to help co-workers learn React by providing an alternative to the traditional "todo app" tutorial.
 
 ### Before You Start
 
+All broken code in this exercise is located in the src folder.
+
 Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work well in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful.
 
-All broken code in this exercise is located in the src folder. 
+The SAR method (Situation, Action, Result) is a great method for thinking through the steps needed to solve a problem. For a written bug report, I use the SEA template (Steps to reproduce, Expected result, Actual result). Pro tip - save the SEA template as a signature in your email client if you find yourself frequently reporting bugs. JIRA can be also be configured to generate bug tickets sent to a designated email address.
 
 ### Installation
 
@@ -27,9 +29,9 @@ All broken code in this exercise is located in the src folder.
 
 ### Additional Notes
 
-React is an incredibly powerful JavaScript library, but it's easier to learn when you have a solid foundation in [HTML](http://learn.shayhowe.com/html-css/getting-to-know-html/), [CSS](http://learn.shayhowe.com/html-css/getting-to-know-css/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics). An HTML/CSS/JavaScript blend, [JSX](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.ro3sx1ea0), is an industry standard in React applications (although it is not required).
+React is an incredibly powerful JavaScript library, but it's easier to learn when you have a solid foundation in [HTML](http://learn.shayhowe.com/html-css/getting-to-know-html/), [CSS](http://learn.shayhowe.com/html-css/getting-to-know-css/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics). An HTML/CSS/JavaScript purée, [JSX](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.ro3sx1ea0), is an industry standard in React applications (although it is not required).
 
-[Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/) are frequently used in React applications. The simple explanation is that React, a technology used for building Single Page Applications (SPAs), is one big magic trick. It breaks the mold of how traditional websites are expected to operate. However, React is the view layer in the traditional "MVC" architecture. The use of additional libraries with React, such as Redux and React-Router, can enhance React code so that the flow of data throughout an application is more accessible and/or traceable.
+[Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/) are frequently used in React applications. The simple explanation is that React, a technology used for building Single Page Applications (SPAs), is one big magic trick. It breaks the mold of how traditional websites are expected to operate. However, React is the view layer in the traditional "MVC" architecture. The use of additional libraries with React, such as Redux and React-Router, can enhance React code so that the flow of data throughout an application is more accessible, organized and/or traceable.
 
 ### Further Reading:
 
