@@ -40,4 +40,5 @@ body {
 .border-white { border: 1px solid white; }
 .mt6x { margin-top: 30px; }
 .pl2x { padding-left: 10px ;}
+.pr2x { padding-right: 10px ;}
 .text-left { text-align: left; }

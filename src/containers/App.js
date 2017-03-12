@@ -36,7 +36,7 @@ class App extends Component {
       <div className='app'>
         <Navbar ref='navbuttons' startLogin={this.startLogin} handleLogout={this.handleLogout} />
         <div className={this.state.showLoginForm === true ? '' : 'hide'}>
-          <LoginForm handleSession={this.handleSession} />
+          <LoginForm handleSession={this.handleSession} handleLogout={this.handleLogout} />
         </div>
       </div>
     );
