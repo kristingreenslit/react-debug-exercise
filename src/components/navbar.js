@@ -12,19 +12,26 @@ class Navbar extends Component {
     };
   }
 
-  handleButtonToggle() {
+  handleLoginButton() {
     this.setState({
       showLoginButton: false,
       showLogoutButton: true
     });
   }
 
+  handleLogoutButton() {
+    this.setState({
+      showLoginButton: true,
+      showLogoutButton: false
+    });
+  }
+
   render() {
     let sessionButton;
     if (this.state.showLoginButton === true) {
-      sessionButton = (<button className='flat-button border-white' onClick={this.props.handleLogin}>Sign In</button>);
+      sessionButton = (<button id='button-login' className='flat-button border-white' onClick={this.props.handleLogin}>Sign In</button>);
     } else {
-      sessionButton = (<button className='flat-button border-white' onClick={this.props.handleLogout}>Sign Out</button>);
+      sessionButton = (<button id='button-logout' className='flat-button border-white' onClick={this.props.handleLogout}>Sign Out</button>);
     }
     return (
       <div className='app-navbar'>

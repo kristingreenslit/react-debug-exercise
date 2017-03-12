@@ -22,18 +22,19 @@ class App extends Component {
   }
 
   handleSession() {
-    this.refs.child.handleButtonToggle();
+    this.refs.navbuttons.handleLoginButton();
     this.setState({ showLoginForm: false });
   }
 
   handleLogout() {
-    this.setState({ showLoginForm: true });
+    this.refs.navbuttons.handleLogoutButton();
+    this.setState({ showLoginForm: false });
   }
 
   render() {
     return (
       <div className='app'>
-        <Navbar ref='child' handleLogin={this.handleLogin} handleLogout={this.handleLogout} />
+        <Navbar ref='navbuttons' handleLogin={this.handleLogin} handleLogout={this.handleLogout} />
         <div className={this.state.showLoginForm === true ? '' : 'hide'}>
           <LoginForm handleSession={this.handleSession} />
         </div>
