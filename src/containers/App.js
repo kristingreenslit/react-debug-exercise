@@ -11,10 +11,15 @@ class App extends Component {
 
     this.state = { showLoginForm: false };
     this.handleLogin = this.handleLogin.bind(this);
+    this.handleCredentials = this.handleCredentials.bind(this);
   }
 
   handleLogin() {
     this.setState({ showLoginForm: true });
+  }
+
+  handleCredentials() {
+    this.setState({ showLoginForm: false });
   }
 
   render() {
@@ -22,7 +27,7 @@ class App extends Component {
       <div className='app'>
         <Navbar handleLogin={this.handleLogin} />
         <div className={this.state.showLoginForm === true ? '' : 'hide'}>
-          <LoginForm />
+          <LoginForm handleCredentials={this.handleCredentials} />
         </div>
       </div>
     );

@@ -41,7 +41,8 @@ class LoginForm extends Component {
             <FormGroup>
               <Col sm={2} className='mt6x'>
                 <button className='flat-button border-black'
-                        type='submit'>Next
+                        type='submit'
+                        onClick={this.props.handleCredentials}>Next
                         <Glyphicon className='pl2x' glyph='menu-right' />
                 </button>
               </Col>
