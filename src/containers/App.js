@@ -10,45 +10,32 @@ class App extends Component {
     super(props);
 
     this.state = {
-      showLoginButton: true,
-      showLogoutButton: false,
       showLoginForm: false
     };
     this.handleLogin = this.handleLogin.bind(this);
-    this.handleCredentials = this.handleCredentials.bind(this);
+    this.handleSession = this.handleSession.bind(this);
     this.handleLogout = this.handleLogout.bind(this);
   }
 
   handleLogin() {
-    this.setState({
-      showLoginButton: false,
-      showLogoutButton: true,
-      showLoginForm: true
-    });
+    this.setState({ showLoginForm: true });
   }
 
-  handleCredentials() {
-    this.setState({
-      showLoginButton: false,
-      showLogoutButton: true,
-      showLoginForm: false
-    });
+  handleSession() {
+    this.refs.child.handleButtonToggle();
+    this.setState({ showLoginForm: false });
   }
 
   handleLogout() {
-    this.setState({
-      showLoginButton: true,
-      showLogoutButton: false,
-      showLoginForm: true
-    });
+    this.setState({ showLoginForm: true });
   }
 
   render() {
     return (
       <div className='app'>
-        <Navbar handleLogin={this.handleLogin} handleLogout={this.handleLogout} />
+        <Navbar ref='child' handleLogin={this.handleLogin} handleLogout={this.handleLogout} />
         <div className={this.state.showLoginForm === true ? '' : 'hide'}>
-          <LoginForm handleCredentials={this.handleCredentials} />
+          <LoginForm handleSession={this.handleSession} />
         </div>
       </div>
     );
