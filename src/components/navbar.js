@@ -29,9 +29,9 @@ class Navbar extends Component {
   render() {
     let sessionButton;
     if (this.state.showLoginButton === true) {
-      sessionButton = (<button id='button-login' className='flat-button border-white' onClick={this.props.handleLogin}>Sign In</button>);
+      sessionButton = (<button className='flat-button border-white' onClick={this.props.startLogin}>Sign In</button>);
     } else {
-      sessionButton = (<button id='button-logout' className='flat-button border-white' onClick={this.props.handleLogout}>Sign Out</button>);
+      sessionButton = (<button className='flat-button border-white' onClick={this.props.handleLogout}>Sign Out</button>);
     }
     return (
       <div className='app-navbar'>

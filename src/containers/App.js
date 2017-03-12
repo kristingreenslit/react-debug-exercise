@@ -12,12 +12,12 @@ class App extends Component {
     this.state = {
       showLoginForm: false
     };
-    this.handleLogin = this.handleLogin.bind(this);
+    this.startLogin = this.startLogin.bind(this);
     this.handleSession = this.handleSession.bind(this);
     this.handleLogout = this.handleLogout.bind(this);
   }
 
-  handleLogin() {
+  startLogin() {
     this.setState({ showLoginForm: true });
   }
 
@@ -34,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <div className='app'>
-        <Navbar ref='navbuttons' handleLogin={this.handleLogin} handleLogout={this.handleLogout} />
+        <Navbar ref='navbuttons' startLogin={this.startLogin} handleLogout={this.handleLogout} />
         <div className={this.state.showLoginForm === true ? '' : 'hide'}>
           <LoginForm handleSession={this.handleSession} />
         </div>
