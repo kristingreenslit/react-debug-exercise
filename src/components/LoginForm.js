@@ -10,9 +10,9 @@ class LoginForm extends Component {
 
   render() {
     return (
-      <Form horizontal onSubmit={this.onFormSubmit}>
+      <Form horizontal className='mt9x' onSubmit={this.onFormSubmit}>
         <fieldset>
-          <Col smOffset={4} sm={6} className='mt6x'>
+          <Col smOffset={4} sm={6}>
 
             <FormGroup>
               <Col sm={8}><h3 className='text-left'>Sign in</h3></Col>
