@@ -42,12 +42,7 @@ class LoginForm extends Component {
               <Col sm={8} className='mt6x'>
                 <button className='flat-button border-black'
                         type='submit'
-                        onClick={this.props.handleLogout}>
-                        <Glyphicon className='pr2x' glyph='menu-left' />Back
-                </button>
-                <button className='flat-button border-black pull-right'
-                        type='submit'
-                        onClick={this.props.handleSession}>Next
+                        onClick={this.props.handleLogin}>Next
                         <Glyphicon className='pl2x' glyph='menu-right' />
                 </button>
               </Col>

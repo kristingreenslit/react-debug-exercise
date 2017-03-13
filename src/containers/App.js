@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
 import LoginForm from '../components/LoginForm';
+import { Glyphicon } from 'react-bootstrap';
 import '../styles/App.css';
 
 class App extends Component {
@@ -9,33 +10,39 @@ class App extends Component {
     super(props);
 
     this.state = {
-      showLoginForm: false
+      showLoginForm: true,
+      showCheckmark: false
     };
-    this.startLogin = this.startLogin.bind(this);
-    this.handleSession = this.handleSession.bind(this);
+    this.handleLogin = this.handleLogin.bind(this);
     this.handleLogout = this.handleLogout.bind(this);
   }
 
-  startLogin() {
-    this.setState({ showLoginForm: true });
-  }
-
-  handleSession() {
-    this.refs.navbuttons.handleLoginButton();
-    this.setState({ showLoginForm: false });
+  handleLogin() {
+    this.refs.navbutton.handleLogoutButton();
+    this.setState({ 
+      showLoginForm: false,
+      showCheckmark: true
+    });
   }
 
   handleLogout() {
-    this.refs.navbuttons.handleLogoutButton();
-    this.setState({ showLoginForm: false });
+    this.refs.navbutton.handleLogoutButton();
+    this.setState({
+      showLoginForm: true,
+      showCheckmark: false
+    });
   }
 
   render() {
     return (
       <div className='app'>
-        <Navbar ref='navbuttons' startLogin={this.startLogin} handleLogout={this.handleLogout} />
+        <Navbar ref='navbutton' handleLogout={this.handleLogout} />
         <div className={this.state.showLoginForm === true ? '' : 'hide'}>
-          <LoginForm handleSession={this.handleSession} handleLogout={this.handleLogout} />
+          <LoginForm handleLogin={this.handleLogin} />
+        </div>
+        <div className={this.state.showCheckmark === true ? 'text-center mt9x' : 'hide'}>
+          <Glyphicon glyph='glyphicon glyphicon-ok-sign' />
+          <h2>Great work!</h2>
         </div>
       </div>
     );

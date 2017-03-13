@@ -39,6 +39,7 @@ body {
 
 .border-black { border: 1px solid black; }
 .border-white { border: 1px solid white; }
+.glyphicon.glyphicon-ok-sign { font-size: 10em; }
 .mt6x { margin-top: 30px; }
 .mt9x { margin-top: 45px; }
 .pl2x { padding-left: 10px ;}

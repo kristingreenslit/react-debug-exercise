@@ -6,31 +6,18 @@ class Navbar extends Component {
     constructor(props) {
     super(props);
 
-    this.state = {
-      showLoginButton: true,
-      showLogoutButton: false
-    };
-  }
-
-  handleLoginButton() {
-    this.setState({
-      showLoginButton: false,
-      showLogoutButton: true
-    });
+    this.state = { showLogoutButton: false };
   }
 
   handleLogoutButton() {
-    this.setState({
-      showLoginButton: true,
-      showLogoutButton: false
-    });
+    this.setState(prevState => ({
+      showLogoutButton: !prevState.showLogoutButton
+    }));
   }
 
   render() {
     let sessionButton;
-    if (this.state.showLoginButton === true) {
-      sessionButton = (<button className='flat-button border-white' onClick={this.props.startLogin}>Sign In</button>);
-    } else {
+    if (this.state.showLogoutButton === true) {
       sessionButton = (<button className='flat-button border-white' onClick={this.props.handleLogout}>Sign Out</button>);
     }
     return (
