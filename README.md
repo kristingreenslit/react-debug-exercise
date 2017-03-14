@@ -6,7 +6,7 @@ This app was created to help co-workers learn React. It provides an alternative 
 
 ### Before You Start
 
-You should be able to progress past the sign in form when the code is fixed. The app's main view looks like the screenshot below:
+You should be able to progress past the sign in form when the code is fixed. Any test login credentials will work (this app has no back end or form validation beyond what's native to the browser). The app's main view looks like the screenshot below:
 
 <p align='center'>
 	<img src='./src/assets/main_view.png' width='750' height='500' />
