@@ -8,9 +8,7 @@ In my own journey as a web developer, I've found that debugging is not only a va
 
 All broken code in this exercise is located in the src folder. The solution has two views:
 
-![View 1](./src/assets/view_1.png)
-
-![View 2](./src/assets/view_2.png)
+![View 1](./src/assets/view_1.png =600x300) ![View 2](./src/assets/view_2.png =600x300)
 
 Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work well in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful.
 
