@@ -17,12 +17,12 @@ Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/
 
 DOM:
 <p align='center'>
-  <img src='./src/assets/dom.png' width='750' height='500' />
+  <img src='./src/assets/dom.png' width='500' height='200' />
 </p>
 
 React Dev Tools:
 <p align='center'>
-  <img src='./src/assets/dev_tools.png' width='750' height='500' />
+  <img src='./src/assets/dev_tools.png' width='500' height='200' />
 </p>
 
 This app also includes a lint tool, so many errors will display in the Terminal app (Mac) or Command Prompt (Windows). The JavaScript console in the developer tools menu of any modern browser should also provide assistance.
