@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
 import LoginForm from '../components/LoginForm';
+import Footer from '../components/Footer';
 import { Glyphicon } from 'react-bootstrap';
 import '../styles/App.css';
 
@@ -44,6 +45,7 @@ class App extends Component {
           <Glyphicon glyph='glyphicon glyphicon-ok-sign' />
           <h2>Great work!</h2>
         </div>
+        <Footer />
       </div>
     );
   }

@@ -1,16 +1,38 @@
+html {
+  height: 100%;
+}
+
 body {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
 }
 
 .app-navbar, .app-footer {
-  background-color: #222;
+  background-color: rgba(73,188,171,0.4);
+  color: #333;
+  height: 80px;
   padding: 20px;
-  color: white;
+}
+
+.app-footer {
+  bottom: 0;
+  height: 80px;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer-anchor {
+  display: block;
+  height: 80px;
+  padding: 20px;
+  width: 100%;
 }
 
 .flat-button {
+  color: #333;
   background-color: transparent;
   letter-spacing: 2px;
   height: 40px;
@@ -25,19 +47,19 @@ body {
 
 .header {
   font-size: 1.8em;
-  letter-spacing: 1px;
 }
 
 .input-line {
   background: transparent !important;
   border: none !important;
-  border-bottom: 1px solid black !important;
+  border-bottom: 1px solid #333 !important;
   border-radius: 0 !important;
   box-shadow: none !important;
+  color: #333 !important;
   padding-left: 0 !important;
 }
 
-.border-black { border: 1px solid black; }
+.border-gray { border: 1px solid #333; }
 .border-white { border: 1px solid white; }
 .glyphicon.glyphicon-ok-sign { font-size: 10em; }
 .mt6x { margin-top: 30px; }
@@ -45,3 +67,4 @@ body {
 .pl2x { padding-left: 10px ;}
 .pr2x { padding-right: 10px ;}
 .text-left { text-align: left; }
+.text-gray {color: #333; }

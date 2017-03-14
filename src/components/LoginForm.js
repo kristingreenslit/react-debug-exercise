@@ -15,7 +15,7 @@ class LoginForm extends Component {
           <Col smOffset={4} sm={6}>
 
             <FormGroup>
-              <Col sm={8}><h3 className='text-left'>Sign in</h3></Col>
+              <Col sm={8}><h3 className='text-left text-gray'>Sign in</h3></Col>
             </FormGroup>
 
             <FormGroup controlId='formHorizontalEmail'>
@@ -40,7 +40,7 @@ class LoginForm extends Component {
 
             <FormGroup>
               <Col sm={8} className='mt6x'>
-                <button className='flat-button border-black'
+                <button className='flat-button border-gray'
                         type='submit'
                         onClick={this.props.handleLogin}>Next
                         <Glyphicon className='pl2x' glyph='menu-right' />
