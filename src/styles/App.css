@@ -10,7 +10,7 @@ body {
 }
 
 .app-navbar, .app-footer {
-  background-color: rgba(73,188,171,0.4);
+  background-color: rgba(73,188,171,0.3);
   color: #333;
   height: 80px;
   padding: 20px;
