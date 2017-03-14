@@ -6,7 +6,7 @@ This app was created to help co-workers learn React. It provides an alternative 
 
 ### Before You Start
 
-You should be able to progress past the sign in form when the code is fixed. Any test login credentials will work (this app has no back end or form validation beyond what's native to the browser). The app's main view looks like the screenshot below:
+You should be able to progress past the sign in form when the code is fixed. Any test login credentials will work (the app has no back end authentication or form validation beyond what's native to the browser). The main view looks like the screenshot below:
 
 <p align='center'>
 	<img src='./src/assets/main_view.png' width='750' height='500' />
@@ -36,7 +36,7 @@ The SAR method (Situation, Action, Result) is a great method for thinking throug
 
 React is an incredibly powerful JavaScript library, but it's easier to learn when you have a solid foundation in [HTML](http://learn.shayhowe.com/html-css/getting-to-know-html/), [CSS](http://learn.shayhowe.com/html-css/getting-to-know-css/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics). An HTML/CSS/JavaScript purée, [JSX](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.ro3sx1ea0), is an industry standard in React applications (although it is not required).
 
-[Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/) are frequently used in React applications. The simple explanation is that React, a technology used for building Single Page Applications (SPAs), is one big magic trick. It breaks the mold of how traditional websites are expected to operate. However, React is the view layer in the traditional "MVC" architecture. The use of additional libraries with React, such as Redux and React-Router, can enhance React code so that the flow of data throughout an application is more accessible, organized and/or traceable.
+[Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/) are frequently used in React applications. The simple explanation is that React, a technology used for building a [SPA](https://en.wikipedia.org/wiki/Single-page_application) (Single Page Application), is one big magic trick. It breaks the mold of how traditional websites are expected to operate. However, React is the view layer in the traditional "MVC" architecture. The use of additional libraries with React, such as Redux and React-Router, can enhance React code so that the flow of data throughout an application is more accessible, organized and/or traceable.
 
 [Create React App](https://github.com/facebookincubator/create-react-app) was used to bootstrap this project.
 
