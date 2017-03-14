@@ -9,7 +9,7 @@ In my own journey as a web developer, I've found that debugging is not only a va
 The main view should look like this when the code is fixed:
 
 <p align='center'>
-	<img src='./src/assets/view1.png' width='800' height='500' />
+	<img src='./src/assets/main_view.png' width='750' height='500' />
 </p>
 
 
