@@ -6,10 +6,10 @@ In my own journey as a web developer, I've found that debugging is not only a va
 
 ### Before You Start
 
-All broken code in this exercise is located in the src folder. The solution has two views:
+All broken code in this exercise is located in the src folder. Here is a screenshot of the main view:
 
-<p align='center'>
-	<img src='./src/assets/view_1.png' width='600' height='300' /><img src='./src/assets/view_2.png' width='600' height='300' />
+<p align='center' style='border:1px solid gray;'>
+	<img src='./src/assets/view_1.png' width='800' height='500' />
 </p>
 
 
