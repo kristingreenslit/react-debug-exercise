@@ -1,19 +1,19 @@
 # React Debug Exercise
 
-The code in this app is intentionally broken.
+The code in this app is intentionally broken. In my own journey as a web developer, I've found that debugging is not only a valuable skill but also a great way to learn.
 
-In my own journey as a web developer, I've found that debugging is not only a valuable skill but also a great way to learn. This exercise was created to help co-workers learn React by providing an alternative to the traditional "todo app" tutorial.
+This app was created to help co-workers learn React. It provides an alternative to the traditional method of creating a todo app from scratch.
 
 ### Before You Start
 
-The main view should look like this when the code is fixed:
+You should be able to progress past the sign in form when the code is fixed. The app's main view looks like the screenshot below:
 
 <p align='center'>
 	<img src='./src/assets/main_view.png' width='750' height='500' />
 </p>
 
 
-Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work well in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful.
+Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful. This app also includes a lint tool, so many errors will display in the Terminal app (Mac) or Command Prompt (Windows). The JavaScript console in the developer tools menu of any modern browser should also provide assistance.
 
 The SAR method (Situation, Action, Result) is a great method for thinking through the steps needed to solve a problem. For a written bug report, I use the SEA template (Steps to reproduce, Expected result, Actual result). Pro tip: save the SEA template as a signature in your email client if you find yourself frequently reporting bugs. Also, JIRA can be configured to automatically generate bug tickets based on emails sent to a designated address.
 
