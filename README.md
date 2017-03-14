@@ -9,11 +9,23 @@ This app was created to help co-workers learn React. It provides an alternative 
 You should be able to progress past the sign in form when the code is fixed. Any test login credentials will work (the app has no back end authentication or form validation beyond what's native to the browser). The main view looks like the screenshot below:
 
 <p align='center'>
-	<img src='./src/assets/main_view.png' width='750' height='500' />
+  <img src='./src/assets/main_view.png' width='750' height='500' />
 </p>
 
 
-Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful. This app also includes a lint tool, so many errors will display in the Terminal app (Mac) or Command Prompt (Windows). The JavaScript console in the developer tools menu of any modern browser should also provide assistance.
+Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful. To illustrate this point, the screenshots below show this app's username input field as it appears in the [DOM](https://css-tricks.com/dom/) and in React Dev Tools. The hierarchy and nesting of components is highly visible with React Dev Tools, which makes debugging easier because an element's location in the code is easier to find:
+
+DOM:
+<p align='center'>
+  <img src='./src/assets/dom.png' width='750' height='500' />
+</p>
+
+React Dev Tools:
+<p align='center'>
+  <img src='./src/assets/dev_tools.png' width='750' height='500' />
+</p>
+
+This app also includes a lint tool, so many errors will display in the Terminal app (Mac) or Command Prompt (Windows). The JavaScript console in the developer tools menu of any modern browser should also provide assistance.
 
 The SAR method (Situation, Action, Result) is a great method for thinking through the steps needed to solve a problem. For a written bug report, I use the SEA template (Steps to reproduce, Expected result, Actual result). Pro tip: save the SEA template as a signature in your email client if you find yourself frequently reporting bugs. Also, JIRA can be configured to automatically generate bug tickets based on emails sent to a designated address.
 
