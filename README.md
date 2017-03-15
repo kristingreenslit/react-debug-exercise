@@ -33,19 +33,19 @@ Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/
 
 3.  Visit http://localhost:3000 to view the app in your browser of choice. Note: Running `npm start` and entering the keyboard shortcut `CTRL + C` from the project's root directory will start and stop the server.
 
-### Debugging Tips for Professionals
+### Debugging Tips for Teams
 
 * Save the SEA template mentioned above (Steps to reproduce, Expected result, Actual result) as a signature in your email client (such as [Outlook](https://support.office.com/en-us/article/Create-and-add-a-signature-to-messages-8ee5d4f4-68fd-464a-a1c1-0e1c80bb27f2)) if you find yourself frequently reporting bugs.
 
-* JIRA can be configured to [automatically generate](https://confluence.atlassian.com/adminjiracloud/creating-issues-and-comments-from-email-779288896.html) issues, comments and help desk requests.
+* Slack integrates with [GitHub](https://get.slack.help/hc/en-us/articles/232289568-Use-GitHub-with-Slack), [GitLab](https://docs.gitlab.com/ee/user/project/integrations/slack.html) and even [Jenkins](https://github.com/jenkinsci/slack-plugin) to automatically notify channels about events such as commits, builds and pull requests.
 
-* Slack integrates with [GitHub](https://get.slack.help/hc/en-us/articles/232289568-Use-GitHub-with-Slack), [GitLab](https://docs.gitlab.com/ee/user/project/integrations/slack.html) and even [Jenkins](https://github.com/jenkinsci/slack-plugin) to automatically notify channels about new events such commits, builds and pull requests.
+* JIRA can be configured to [automatically generate](https://confluence.atlassian.com/adminjiracloud/creating-issues-and-comments-from-email-779288896.html) issues, comments and help desk requests.
 
 ### Additional Notes
 
 React is an incredibly powerful JavaScript library, but it's easier to learn when you have a solid foundation in [HTML](http://learn.shayhowe.com/html-css/getting-to-know-html/), [CSS](http://learn.shayhowe.com/html-css/getting-to-know-css/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics). An HTML/CSS/JavaScript purée, [JSX](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.ro3sx1ea0), is an industry standard in React applications (although it is not required).
 
-[Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/) are frequently used in React applications. The simple explanation is that React, a library used for building [SPA](https://en.wikipedia.org/wiki/Single-page_application)s (Single Page Applications), is one big magic trick. It breaks the mold of how traditional websites operate by rendering components on the client side when needed vs. rendering content from a server. However, React is the view layer in the traditional "MVC" architecture. The use of additional libraries with React, such as Redux and React-Router, can enhance React code so that it functions like a [framework](https://en.wikipedia.org/wiki/JavaScript_framework) and the flow of data throughout an application is more accessible, organized and/or traceable.
+[Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/) are frequently used in React applications. The simple explanation is that React, a library used for building [SPAs](https://en.wikipedia.org/wiki/Single-page_application) (Single Page Applications), is one big magic trick. It breaks the mold of how traditional websites operate by rendering components on the client side when needed vs. rendering content from a server. However, React is the view layer in the traditional "MVC" architecture. The use of additional libraries with React, such as Redux and React-Router, can enhance React code so that it functions like a [framework](https://en.wikipedia.org/wiki/JavaScript_framework) and the flow of data throughout an application is more accessible, organized and/or traceable.
 
 [Create React App](https://github.com/facebookincubator/create-react-app) was used to bootstrap this project.
 
