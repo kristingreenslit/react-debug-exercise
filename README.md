@@ -12,13 +12,13 @@ You should be able to progress past the sign in form when the code is fixed. Any
   <img src='./src/assets/main_view.png' width='750' height='500' />
 </p>
 
-React is easier to debug when you have a solid foundation in [HTML](http://learn.shayhowe.com/html-css/getting-to-know-html/), [CSS](http://learn.shayhowe.com/html-css/getting-to-know-css/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics). [JSX](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.ro3sx1ea0) is also important to learn. JSX, an HTML/CSS/JavaScript purée, it not required in React applications but is considered an industry standard.
+React is easier to debug when you have a solid foundation in [HTML](http://learn.shayhowe.com/html-css/getting-to-know-html/), [CSS](http://learn.shayhowe.com/html-css/getting-to-know-css/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics). JSX is also important to learn. [JSX](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.ro3sx1ea0), an HTML/CSS/JavaScript purée, it not required in React applications but is considered an industry standard.
 
 The SAR method (Situation, Action, Result) is a great method for thinking through the steps needed to solve a problem. For a written bug report, I use the SEA template (Steps to reproduce, Expected result, Actual result).
 
 This app includes a lint tool, so many errors will display in the Terminal app (Mac) or Command Prompt (Windows). The JavaScript console in the developer tools menu of any modern browser should also provide assistance.
 
-Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful. The hierarchy and nesting of components is highly visible in React Dev Tools, which makes it much easier to narrow in on the scope of a problem.
+Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful. The component hierarchy is highly visible in React Dev Tools, which makes it easier to narrow in on the scope of a problem (and find where an element is nested in the actual code).
 
 ### Installation
 
@@ -39,15 +39,15 @@ Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/
 
 * Save the SEA template mentioned above (Steps to reproduce, Expected result, Actual result) as a signature in your email client (such as [Outlook](https://support.office.com/en-us/article/Create-and-add-a-signature-to-messages-8ee5d4f4-68fd-464a-a1c1-0e1c80bb27f2)) if you find yourself frequently reporting bugs.
 
-* Slack integrates with [GitHub](https://get.slack.help/hc/en-us/articles/232289568-Use-GitHub-with-Slack), [GitLab](https://docs.gitlab.com/ee/user/project/integrations/slack.html) and even [Jenkins](https://github.com/jenkinsci/slack-plugin) to automatically notify channels about events such as commits, builds and pull requests.
+* Slack integrates with [GitHub](https://get.slack.help/hc/en-us/articles/232289568-Use-GitHub-with-Slack), [GitLab](https://docs.gitlab.com/ee/user/project/integrations/slack.html) and even [Jenkins](https://github.com/jenkinsci/slack-plugin) to automatically notify channels about events such as commits, builds, pull requests and deployment statuses.
 
 * JIRA can be configured to [automatically generate](https://confluence.atlassian.com/adminjiracloud/creating-issues-and-comments-from-email-779288896.html) issues, comments and help desk requests.
 
 ### Additional Notes
 
-React, an incredibly powerful JavaScript library used for building [SPAs](https://en.wikipedia.org/wiki/Single-page_application) (Single Page Applications), is one big magic trick. It breaks the mold of how traditional websites operate by rendering components on the client side as needed vs. rendering content from a server. Like any new technology, SPAs have [pros and cons](https://neoteric.eu/single-page-application-vs-multiple-page-application), but they offer huge advantages in terms of speed, performance and the overall user experience. An example of this is selecting the "like" or "favorite" button in a social media application. The update is immediately viewable to the user because a server call (and correspondingly, a page refresh) does not occur.
+React, an incredibly powerful JavaScript library used for building [SPAs](https://en.wikipedia.org/wiki/Single-page_application) (Single Page Applications), is one big magic trick. It breaks the mold of how traditional websites operate by rendering components on the client side as needed vs. rendering content from a server. Like any new technology, SPAs have [pros and cons](https://neoteric.eu/single-page-application-vs-multiple-page-application), but they offer huge advantages in terms of speed, performance and the overall user experience. An example is selecting the "like" or "favorite" button in a social media application. The update is immediately viewable because the user does not have to wait for a server response or page refresh to occur.
 
-React is the view layer in the traditional "MVC" architecture. The use of third-party libraries with React, such as [Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/), can enhance React code so that the flow of data is more accessible, organized and/or traceable. This can be helpful in large-scale applications when data, such as a user object, needs to be passed around the application or access to certain views needs to be restricted by user type. This could result in a series of tangled callback functions (for example) if not properly managed.
+React is the view layer in the traditional "MVC" architecture. The use of third-party libraries with React, such as [Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/), can enhance React code so that the flow of data is more accessible, organized and/or traceable. This can be helpful in large-scale applications when data, such as a user object, needs to be passed around the application and/or certain views need to be restricted by user type. A series of tangled callback functions could result if the flow data is not well-managed (for example). 
 
 [Create React App](https://github.com/facebookincubator/create-react-app) was used to bootstrap this project.
 
