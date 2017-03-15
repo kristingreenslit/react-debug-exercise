@@ -12,22 +12,19 @@ You should be able to progress past the sign in form when the code is fixed. Any
   <img src='./src/assets/main_view.png' width='750' height='500' />
 </p>
 
+The SAR method (Situation, Action, Result) is a great method for thinking through the steps needed to solve a problem. For a written bug report, I use the SEA template (Steps to reproduce, Expected result, Actual result). This app also includes a lint tool, so many errors will display in the Terminal app (Mac) or Command Prompt (Windows). The JavaScript console in the developer tools menu of any modern browser should also provide assistance.
 
-Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful. To illustrate this point, the screenshots below show this app's username input field as it appears in the [DOM](https://css-tricks.com/dom/) and in React Dev Tools. The hierarchy and nesting of components is highly visible with React Dev Tools, which makes debugging easier because an element's location in the code is easier to find:
+Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful. The screenshots below show this app's username input field as it appears in the [DOM](https://css-tricks.com/dom/) and in React Dev Tools. The hierarchy and nesting of components is highly visible with React Dev Tools, which makes debugging easier because an element's location in the code is easier to find:
 
 DOM:
 <p align='center'>
-  <img src='./src/assets/dom.png' width='500' height='200' />
+  <img src='./src/assets/dom.png' width='800' height='150' />
 </p>
 
 React Dev Tools:
 <p align='center'>
-  <img src='./src/assets/dev_tools.png' width='500' height='200' />
+  <img src='./src/assets/dev_tools.png' width='550' height='150' />
 </p>
-
-This app also includes a lint tool, so many errors will display in the Terminal app (Mac) or Command Prompt (Windows). The JavaScript console in the developer tools menu of any modern browser should also provide assistance.
-
-The SAR method (Situation, Action, Result) is a great method for thinking through the steps needed to solve a problem. For a written bug report, I use the SEA template (Steps to reproduce, Expected result, Actual result). Pro tip: save the SEA template as a signature in your email client if you find yourself frequently reporting bugs. Also, JIRA can be configured to automatically generate bug tickets based on emails sent to a designated address.
 
 ### Installation
 
@@ -43,6 +40,14 @@ The SAR method (Situation, Action, Result) is a great method for thinking throug
   ```
 
 3.  Visit http://localhost:3000 to view the app in your browser of choice. Note: Running `npm start` and entering the keyboard shortcut `CTRL + C` from the project's root directory will start and stop the server.
+
+### Debugging Tips for Professionals
+
+* Save the SEA template mentioned above (Steps to reproduce, Expected result, Actual result) as a signature in your email client (such as [Outlook](https://support.office.com/en-us/article/Create-and-add-a-signature-to-messages-8ee5d4f4-68fd-464a-a1c1-0e1c80bb27f2)) if you find yourself frequently reporting bugs.
+
+* JIRA can be configured to [automatically generate issues](https://confluence.atlassian.com/adminjiracloud/creating-issues-and-comments-from-email-779288896.html), comments and help desk requests.
+
+* Slack integrates with [GitHub](https://get.slack.help/hc/en-us/articles/232289568-Use-GitHub-with-Slack), [GitLab](https://docs.gitlab.com/ee/user/project/integrations/slack.html) and even [Jenkins](https://github.com/jenkinsci/slack-plugin) to notify automatically notify channels about new commits/builds/pull requests/etc.
 
 ### Additional Notes
 
