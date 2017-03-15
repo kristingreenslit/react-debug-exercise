@@ -12,21 +12,11 @@ You should be able to progress past the sign in form when the code is fixed. Any
   <img src='./src/assets/main_view.png' width='750' height='500' />
 </p>
 
-This app includes a lint tool, so many errors will display in the Terminal app (Mac) or Command Prompt (Windows). The JavaScript console in the developer tools menu of any modern browser should also provide assistance.
-
 The SAR method (Situation, Action, Result) is a great method for thinking through the steps needed to solve a problem. For a written bug report, I use the SEA template (Steps to reproduce, Expected result, Actual result).
 
-Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful. The screenshots below show this app's username input field as it appears in the [DOM](https://css-tricks.com/dom/) and in React Dev Tools. The hierarchy and nesting of components is highly visible with React Dev Tools, which makes debugging easier because an element's location in the code is easier to find:
+This app includes a lint tool, so many errors will display in the Terminal app (Mac) or Command Prompt (Windows). The JavaScript console in the developer tools menu of any modern browser should also provide assistance.
 
-DOM:
-<p align='center'>
-  <img src='./src/assets/dom.png' width='800' height='150' />
-</p>
-
-React Dev Tools:
-<p align='center'>
-  <img src='./src/assets/dev_tools.png' width='550' height='150' />
-</p>
+Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful. The hierarchy and nesting of components is highly visible in React Dev Tools, which makes debugging easier because an element's location in the actual code is easier to find.
 
 ### Installation
 
@@ -55,7 +45,7 @@ React Dev Tools:
 
 React is an incredibly powerful JavaScript library, but it's easier to learn when you have a solid foundation in [HTML](http://learn.shayhowe.com/html-css/getting-to-know-html/), [CSS](http://learn.shayhowe.com/html-css/getting-to-know-css/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics). An HTML/CSS/JavaScript purée, [JSX](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.ro3sx1ea0), is an industry standard in React applications (although it is not required).
 
-[Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/) are frequently used in React applications. The simple explanation is that React, a library used for building [SPA](https://en.wikipedia.org/wiki/Single-page_application)s (Single Page Applications), is one big magic trick. It breaks the mold of how traditional websites operate by rendering components on the client side when needed vs. rendering content from a server. However, React is the view layer in the traditional "MVC" architecture. The use of additional libraries with React, such as Redux and React-Router, can enhance React code so that the flow of data throughout an application is more accessible, organized and/or traceable.
+[Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/) are frequently used in React applications. The simple explanation is that React, a library used for building [SPA](https://en.wikipedia.org/wiki/Single-page_application)s (Single Page Applications), is one big magic trick. It breaks the mold of how traditional websites operate by rendering components on the client side when needed vs. rendering content from a server. However, React is the view layer in the traditional "MVC" architecture. The use of additional libraries with React, such as Redux and React-Router, can enhance React code so that it functions like a [framework](https://en.wikipedia.org/wiki/JavaScript_framework) and the flow of data throughout an application is more accessible, organized and/or traceable.
 
 [Create React App](https://github.com/facebookincubator/create-react-app) was used to bootstrap this project.
 
