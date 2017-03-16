@@ -18,7 +18,7 @@ The SAR method (Situation, Action, Result) is a great method for thinking throug
 
 This app includes a lint tool, so many errors will display in the Terminal app (Mac) or Command Prompt (Windows). The JavaScript console in the developer tools menu of any modern browser should also provide assistance.
 
-Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful. The component hierarchy is highly visible in React Dev Tools, which makes it easier to narrow in on the scope of a problem (and find where an element is nested in the actual code).
+Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/different-ways-to-debug-javascript-code-579e7f58cf10#.3gbqsze60) won't always work in a React application because React code isn't native to the browser. [React Dev Tools](https://github.com/facebook/react-devtools) might be more helpful. The component hierarchy is highly visible in React Dev Tools, which makes it easier to narrow in on the scope of a problem (and find where an element's nested in the actual code).
 
 ### Installation
 
@@ -47,7 +47,7 @@ Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/
 
 React, an incredibly powerful JavaScript library used for building [SPAs](https://en.wikipedia.org/wiki/Single-page_application) (Single Page Applications), is one big magic trick. It breaks the mold of how traditional websites operate by rendering components on the client side as needed vs. rendering content from a server. Like any new technology, SPAs have [pros and cons](https://neoteric.eu/single-page-application-vs-multiple-page-application), but they offer huge advantages in terms of speed, performance and the overall user experience. An example is selecting the "like" or "favorite" button in a social media application. The update is immediately viewable because the user does not have to wait for a server response or page refresh to occur.
 
-React is the view layer in the traditional "MVC" architecture. The use of third-party libraries with React, such as [Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/), can enhance React code so that the flow of data is more accessible, organized and/or traceable. This can be helpful in large-scale applications when data, such as a user object, needs to be passed around the application and/or certain views need to be restricted by user type. A series of tangled callback functions could result if the flow data is not well-managed (for example). 
+React is the view layer in the traditional "MVC" architecture. The use of third-party libraries with React, such as [Redux](https://css-tricks.com/learning-react-router/) and [React-Router](https://css-tricks.com/learning-react-redux/), can enhance React code so that the flow of data is more accessible, organized and/or traceable. This can be helpful in large-scale applications when data, such as a user object, needs to be passed around the application and/or certain views need to be restricted by user type. A series of tangled callback functions could result if the data flow is not well-managed (for example). 
 
 [Create React App](https://github.com/facebookincubator/create-react-app) was used to bootstrap this project.
 
