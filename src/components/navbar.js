@@ -6,7 +6,7 @@ class Navbar extends Component {
     constructor(props) {
     super(props);
 
-    this = { showLogoutButton: false };
+    this.state = { showLogoutButton: false };
   }
 
   handleLogoutButton() {
@@ -22,13 +22,13 @@ class Navbar extends Component {
     }
     return (
       <div className='app-navbar'>
-      	<div className='flex-container'>
-	      	<div className='header'>React Debug App</div>
-	      	{sessionButton}
+        <div className='flex-container'>
+          <div className='header'>React Debug App</div>
+          {sessionButton}
         </div>
       </div>
     );
   }
 }
 
-export default nav;
+export default Navbar;
