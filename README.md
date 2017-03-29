@@ -2,7 +2,9 @@
 
 The code in this app is intentionally broken.
 
-In my own journey as a web developer, I've found that debugging is not only a valuable skill but also a great way to learn a new technology. Developers also frequently work with code written by others in an existing code base vs. creating an application on their own from start to finish. This app was originally created to help co-workers learn React by providing an alternative to the traditional "to-do app" that is widely used to teach CRUD functionality in front end applications.
+Debugging is not only a great way to learn but it's also a valuable skill. Developers are frequently tasked with debugging code, and it's common for developers to debug code that was written by another team member (either past or present).
+
+This exercise was originally created to help co-workers learn React. It also serves a real-world example with common page elements (login form, navigation bar, etc.) and provides an alternative to the to-do app that's widely used to teach CRUD functionality in front end tutorials.
 
 ### Before You Start
 
