@@ -1,15 +1,15 @@
 # React Debug Exercise
 
-The code in this app is intentionally broken. In my own journey as a web developer, I've found that debugging is not only a valuable skill but also a great way to learn.
+The code in this app is intentionally broken.
 
-This app was created to help co-workers learn React. It provides an alternative to the traditional method of creating a todo app from scratch.
+In my own journey as a web developer, I've found that debugging is not only a valuable skill but also a great way to learn a new technology. Developers also frequently work with code written by others in an existing code base vs. creating an application on their own from start to finish. This app was originally created to help co-workers learn React by providing an alternative to the traditional "to-do app" that is widely used to teach CRUD functionality in front end applications.
 
 ### Before You Start
 
 You should be able to progress past the sign in form when the code is fixed. Any test login credentials will work (the app has no back end authentication or form validation beyond what's native to the browser). The main view looks like the screenshot below:
 
 <p align='center'>
-  <img src='./src/assets/main_view.png' width='750' height='500' />
+  <img src='./src/assets/main.png' width='750' height='500' />
 </p>
 
 React is easier to debug when you have a solid foundation in [HTML](http://learn.shayhowe.com/html-css/getting-to-know-html/), [CSS](http://learn.shayhowe.com/html-css/getting-to-know-css/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics). JSX is also important to learn. [JSX](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.ro3sx1ea0), an HTML/CSS/JavaScript purée, it not required in React applications but is considered an industry standard.
