@@ -26,7 +26,7 @@ Traditional methods for [debugging Javascript](https://medium.com/@sandeep.scet/
 
 1.  Check that Node and NPM are installed. Run `node -v` and then `npm -v` from the command line (Windows) or Terminal app (Mac). If a version number does not print to the console, follow [Mac](http://blog.teamtreehouse.com/install-node-js-npm-mac) or [Windows](http://blog.teamtreehouse.com/install-node-js-npm-windows) installation instructions.
 
-2.  Clone the repository, install dependencies, then start the development server (from the command line or Terminal app):
+2.  Clone the repository, install dependencies, then start the development server (from the command line or Terminal app). For those not familiar with Git, download the ZIP file instead of cloning the respository and skip the first line in the instruction block below:
 
   ```
     > git clone git@github.com:kristingreenslit/react-debug-exercise.git
