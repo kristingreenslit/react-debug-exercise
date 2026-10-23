@@ -6,7 +6,7 @@ class Navbar extends Component {
     constructor(props) {
     super(props);
 
-    this = { showLogoutButton: false };
+    this.state = { showLogoutButton: false };
   }
 
   handleLogoutButton() {
